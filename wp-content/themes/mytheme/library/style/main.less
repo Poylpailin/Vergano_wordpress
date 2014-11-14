@@ -1,0 +1,44 @@
+body{
+  h1{
+    color: red;
+  }
+}
+
+nav {
+
+}
+
+li{
+  display: inline-block;
+  margin-left: 15px;
+  a {
+    font-style: none;
+    text-decoration: none;
+    color: white;}
+    a:hover{
+      text-decoration: none;
+      font-style: none;
+    }
+}
+
+ul{
+  background-color: #e54747;
+  padding: 15px;
+  font-family: Arial;
+  text-align: center;
+}
+
+#sidebar{
+  background-color: yellow;
+}
+
+li{
+    &.current-menu-item{
+      a {
+        color: black;
+      }
+    }
+    .sub-menu{
+      display: none;
+    }
+}
